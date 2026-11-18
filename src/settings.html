@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=8" />
+  <title>Настройки погоды</title>
+  <link rel="stylesheet" href="settings.css" />
+  <script type="text/javascript" src="weather-parser.js"></script>
+  <script type="text/javascript" src="weather-http.js"></script>
+  <script type="text/javascript" src="settings.js"></script>
+</head>
+<body onload="SettingsPage.start()">
+  <div id="settings-content">
+  <div class="page-heading">
+    <h1>Настройки</h1>
+    <button id="openAbout" type="button" aria-controls="about-page">О гаджете</button>
+  </div>
+  <label for="saved">Сохранённые места</label>
+  <select id="saved" size="3"></select>
+  <div class="actions"><button id="activate" type="button">Показывать</button><button id="edit" type="button">Изменить</button><button id="remove" type="button">Удалить</button></div>
+  <div class="divider"></div>
+  <label for="city">Найти город</label>
+  <div class="row"><input id="city" type="text" placeholder="Например, Орша" /><button id="search" type="button">Найти</button></div>
+  <select id="results" size="3"></select>
+  <label for="coords">Ссылка Яндекса или координаты</label>
+  <input id="coords" type="text" placeholder="https://yandex.ru/pogoda/ru?lat=...&amp;lon=..." />
+  <label for="placeName">Название места</label>
+  <div class="row"><input id="placeName" type="text" placeholder="Найдётся автоматически" /><button id="add" type="button">Добавить</button></div>
+  <div class="divider"></div>
+  <div class="row settings-row"><div><label for="units">Температура</label><select id="units"><option value="C">Цельсий °C</option><option value="F">Фаренгейт °F</option></select></div><div><label for="intervalMinutes">Обновление</label><select id="intervalMinutes"><option value="15">15 минут</option><option value="30">30 минут</option><option value="60">60 минут</option></select></div></div>
+  <label id="animateLabel" for="animateWeather"><input id="animateWeather" type="checkbox" checked="checked" /> Анимация погодных иконок</label>
+  </div>
+  <div id="status" class="hint">Выберите место и нажмите ОК</div>
+  <div id="about-page" role="region" aria-labelledby="about-title">
+    <div class="page-heading">
+      <h1 id="about-title">О гаджете</h1>
+      <button id="backToSettings" type="button" aria-label="Назад к настройкам">Назад</button>
+    </div>
+    <h2>Яндекс Погода</h2>
+    <p id="gadgetVersion"></p>
+    <p>Данные берутся с открытой страницы Яндекс Погоды</p>
+    <dl>
+      <dt>Репозиторий гаджета</dt>
+      <dd><a id="repoLink" href="https://github.com/amd64fox/yandex-weather-gadget" target="_blank" rel="noopener noreferrer">github.com/amd64fox/yandex-weather-gadget</a></dd>
+      <dt>GadgetPack для Windows</dt>
+      <dd><a id="gadgetPackLink" href="https://gadgetpack.net/" target="_blank" rel="noopener noreferrer">gadgetpack.net</a></dd>
+    </dl>
+  </div>
+  <div id="editBackdrop"></div>
+  <div id="editPanel" role="dialog" aria-labelledby="editTitle">
+    <h2 id="editTitle">Изменить место</h2>
+    <label for="editName">Название сохранённого места</label>
+    <textarea id="editName" maxlength="75" rows="4"></textarea>
+    <label for="editCoords">Ссылка Яндекс Погоды или координаты</label>
+    <textarea id="editCoords" rows="3" aria-describedby="editMessage"></textarea>
+    <div id="editMessage" class="hint" aria-live="polite">Ссылка должна содержать lat и lon</div>
+    <div class="edit-actions"><button id="cancelEdit" type="button">Отмена</button><button id="saveEdit" type="button">Сохранить</button></div>
+  </div>
+</body>
+</html>

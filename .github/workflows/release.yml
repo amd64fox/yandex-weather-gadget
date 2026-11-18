@@ -1,0 +1,75 @@
+name: Release gadget
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-gadget
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: windows-2025
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+
+      - name: Install test dependencies
+        shell: pwsh
+        run: npm ci
+
+      - name: Test and build gadget
+        shell: pwsh
+        run: |
+          $tests = Get-ChildItem -LiteralPath .\test -Filter '*-test.js' -File
+          foreach ($test in $tests | Where-Object { $_.Name -ne 'parser-test.js' }) {
+              node $test.FullName
+              if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          }
+          .\build.ps1
+
+      - name: Publish release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [xml]$manifest = Get-Content -LiteralPath .\src\gadget.xml -Raw -Encoding UTF8
+          $version = [string]$manifest.gadget.version
+          if ($version -notmatch '^[0-9]+(?:\.[0-9]+)+$') { throw 'Invalid version in src/gadget.xml' }
+          $version = $version -replace '^([0-9]+\.[0-9]+\.[0-9]+)\.0$', '$1'
+          $tag = "v$version"
+          $tagCommit = $null
+          $ref = "refs/tags/$tag"
+          git show-ref --verify --quiet $ref
+          if ($LASTEXITCODE -eq 0) {
+              $tagCommit = git rev-parse "$ref^{commit}"
+              if ($LASTEXITCODE -ne 0 -or $tagCommit -ne $env:GITHUB_SHA) {
+                  throw "Tag $tag points to a different commit"
+              }
+          } elseif ($LASTEXITCODE -ne 1) { throw "Could not check tag $tag" }
+
+          $existing = gh release view $tag --repo $env:GITHUB_REPOSITORY --json isDraft,targetCommitish 2>$null
+          if ($LASTEXITCODE -eq 0) {
+              $release = $existing | ConvertFrom-Json
+              if (-not $release.isDraft) { throw "Release $tag is already published. Update the version in src/gadget.xml." }
+              if (-not $tagCommit -and $release.targetCommitish -ne $env:GITHUB_SHA) {
+                  throw "Draft $tag points to a different commit"
+              }
+          } else {
+              gh release create $tag --repo $env:GITHUB_REPOSITORY --target $env:GITHUB_SHA --title $tag --generate-notes --draft
+              if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          }
+
+          gh release upload $tag .\YandexWeather.gadget --repo $env:GITHUB_REPOSITORY --clobber
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          gh release edit $tag --repo $env:GITHUB_REPOSITORY --draft=false --latest
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }

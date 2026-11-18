@@ -1,0 +1,99 @@
+html, body { margin:0; padding:0; width:516px; height:318px; overflow:hidden; background:transparent; font-family:"Segoe UI", Arial, sans-serif; }
+body { color:#f4f7ff; }
+button, a { font-family:inherit; }
+button { cursor:pointer; }
+#card { position:relative; width:508px; height:310px; margin:3px; overflow:hidden; }
+.panel-art { background-image:url(panels-night-dashboard.png); background-repeat:no-repeat; }
+#topbar { position:absolute; left:12px; top:3px; width:490px; height:24px; line-height:24px; white-space:nowrap; }
+#updated-time { float:left; width:47px; font-size:16px; font-weight:600; }
+#place { float:left; height:24px; max-width:345px; margin-left:5px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:14px; }
+#next-place { display:none; position:relative; left:-2px; top:-2px; float:left; width:17px; height:24px; padding:0; border:0; outline:0; background:transparent; color:#d3e3f7; font:23px/22px "Segoe UI", Arial, sans-serif; text-align:center; filter:alpha(opacity=48); }
+.has-locations #next-place { display:block; }
+#open-site { position:absolute; right:34px; top:-2px; display:block; width:27px; height:29px; }
+#open-site img { position:absolute; left:6px; top:7px; width:16px; height:16px; border:0; }
+#refresh { position:absolute; right:2px; top:-2px; width:27px; height:29px; padding:0; border:0; background:transparent url(refresh-night.png) center center no-repeat; }
+#main { position:absolute; left:5px; top:36px; width:500px; height:104px; background-position:-8px -39px; }
+#hero, #periods { position:absolute; top:0; height:104px; }
+#hero { left:0; width:274px; }
+#periods { left:279px; width:221px; }
+.wx-icon { position:relative; overflow:hidden; background-repeat:no-repeat; }
+.wx-precip { position:absolute; left:0; top:0; display:block; width:100%; height:100%; background-repeat:no-repeat; }
+#weather-icon { position:absolute; left:16px; top:18px; width:64px; height:64px; }
+#current { position:absolute; left:102px; top:3px; width:168px; }
+#temperature { height:47px; line-height:47px; font-size:45px; font-weight:300; letter-spacing:-2px; white-space:nowrap; }
+#condition { height:17px; line-height:17px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:12px; font-weight:600; }
+#outlook { height:16px; line-height:16px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:#b9daf7; font-size:11px; }
+#feels { height:16px; line-height:16px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:#a9bedb; font-size:11px; }
+.period { position:relative; float:left; width:73px; height:104px; text-align:center; }
+.period-name { position:absolute; top:14px; left:0; width:73px; color:#d5e9ff; font-size:12px; }
+.period-icon { position:absolute; top:39px; left:20px; width:32px; height:32px; }
+.period-temp { position:absolute; top:73px; left:0; width:73px; font-size:20px; font-weight:600; }
+#sections { position:absolute; left:5px; top:141px; width:500px; }
+#metrics-heading { position:relative; height:17px; overflow:hidden; }
+.section-toggle { position:relative; display:block; width:500px; height:17px; padding:0 0 0 26px; border:0; background:transparent; color:#a9c9ee; font-size:10px; font-weight:600; line-height:17px; letter-spacing:1px; text-align:left; text-transform:uppercase; }
+.section-toggle:hover, .section-toggle:focus { color:#f4f7ff; }
+.section-toggle .arrow-icon { left:9px; top:2px; background-position:0 -12px; }
+.section-toggle:hover .arrow-icon, .section-toggle:focus .arrow-icon { background-position:-12px -12px; }
+.section-toggle[aria-expanded="false"] .arrow-icon { background-position:-36px -12px; }
+.section-toggle[aria-expanded="false"]:hover .arrow-icon, .section-toggle[aria-expanded="false"]:focus .arrow-icon { background-position:-48px -12px; }
+#metrics { height:42px; overflow:hidden; background-position:-8px -161px; }
+.metric { position:relative; float:left; height:42px; margin-right:4px; }
+.metric-wind { width:91px; }
+.metric-humidity { width:89px; }
+.metric-pressure { width:100px; }
+.metric-uv { width:95px; }
+.metric-magnetic { width:109px; margin-right:0; }
+.metric-icon { position:absolute; left:3px; top:5px; display:block; width:33px; height:33px; background-repeat:no-repeat; }
+.metric-wind .metric-icon { left:6px; }
+.metric-humidity .metric-icon { left:7px; }
+.metric-wind .metric-icon { background-image:url(metric-wind.png); }
+.metric-humidity .metric-icon { background-image:url(metric-humidity.png); }
+.metric-pressure .metric-icon { background-image:url(metric-pressure.png); }
+.metric-uv .metric-icon { background-image:url(metric-uv.png); }
+.metric-magnetic .metric-icon { background-image:url(metric-magnetic.png); }
+.metric-icon span { display:block; position:absolute; left:0; top:11px; width:100%; text-align:center; font-size:12px; font-weight:600; }
+.metric-text { position:absolute; left:36px; top:6px; width:55px; white-space:nowrap; }
+.metric-wind .metric-text { left:42px; width:49px; }
+.metric-humidity .metric-text { left:39px; width:50px; }
+.metric-label, .metric-value, .metric-description { display:block; overflow:hidden; text-overflow:ellipsis; }
+.metric-label { height:16px; line-height:16px; color:#d7e9ff; font-size:9px; letter-spacing:-0.3px; }
+.metric-value { height:20px; line-height:20px; font-size:13px; font-weight:600; }
+.metric-description { height:20px; line-height:20px; color:#9dbbdb; font-size:9px; }
+.metric-pressure .metric-icon { left:5px; top:3px; width:44px; height:37px; }
+.metric-pressure .metric-text { left:48px; width:52px; }
+.metric-uv .metric-icon { left:5px; top:4px; width:40px; height:34px; }
+.metric-uv .metric-text { left:45px; width:50px; }
+.metric-magnetic .metric-icon { left:3px; top:4px; width:40px; height:34px; }
+.metric-magnetic .metric-text { left:40px; top:5px; width:67px; }
+.metric-magnetic .metric-label { height:14px; }
+.metric-magnetic .metric-description { display:table-cell; width:67px; height:23px; line-height:11px; vertical-align:middle; white-space:normal; word-wrap:break-word; text-overflow:clip; }
+#hourly-section { position:relative; }
+#hourly-heading { position:relative; height:27px; overflow:hidden; white-space:nowrap; }
+#hourly-toggle { top:4px; width:430px; height:23px; line-height:23px; }
+#hourly-toggle .arrow-icon { top:5px; }
+#hourly-section.folded #hourly-toggle { width:500px; }
+#hourly-section.folded .hourly-arrow { display:none; }
+.hourly-arrow { position:absolute; top:5px; width:24px; height:21px; padding:0; border:0; background:transparent; cursor:pointer; }
+#hourly-prev { right:32px; }
+#hourly-next { right:5px; }
+.arrow-icon { position:absolute; left:6px; top:5px; width:12px; height:12px; background:url(hourly-arrows.png) no-repeat; }
+#hourly-prev .arrow-icon { background-position:0 0; }
+#hourly-prev:hover .arrow-icon, #hourly-prev:focus .arrow-icon { background-position:-12px 0; }
+#hourly-prev[disabled] .arrow-icon { background-position:-24px 0; }
+#hourly-next .arrow-icon { background-position:-36px 0; }
+#hourly-next:hover .arrow-icon, #hourly-next:focus .arrow-icon { background-position:-48px 0; }
+#hourly-next[disabled] .arrow-icon { background-position:-60px 0; }
+.hourly-arrow[disabled] { cursor:default; }
+#hourly-body { position:relative; height:81px; overflow:hidden; background-position:-8px -230px; }
+#hourly { position:absolute; left:2px; top:2px; width:496px; height:79px; overflow:hidden; white-space:nowrap; }
+#hourly-track { position:absolute; left:0; top:0; height:79px; }
+.hour-item { position:relative; float:left; width:62px; height:78px; text-align:center; }
+.hour-time { position:absolute; left:0; top:0; width:62px; color:#c7dcf5; font-size:11px; }
+.hour-item .symbol { position:absolute; left:15px; top:12px; display:block; width:32px; height:32px; }
+.hour-chance { position:absolute; left:0; top:46px; display:block; width:62px; height:10px; line-height:10px; color:#90c9fb; font-size:9px; }
+.hour-temp { position:absolute; left:0; top:57px; display:block; width:62px; line-height:17px; font-size:14px; font-weight:600; }
+.sun-icon { position:absolute; left:15px; top:12px; display:block; width:32px; height:32px; background-repeat:no-repeat; }
+.sunrise-icon { background-image:url(sunrise-dashboard.png); }
+.sunset-icon { background-image:url(sunset-dashboard.png); }
+.hour-sun .hour-temp { font-size:12px; }
+#status { display:none; position:absolute; left:13px; top:123px; width:88px; height:15px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:#ffdbad; font-size:9px; text-align:center; }

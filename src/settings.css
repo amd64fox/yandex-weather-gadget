@@ -1,0 +1,50 @@
+html, body { width: 300px; height: 400px; margin: 0; padding: 0; overflow: hidden; }
+body { color: #26344a; background: #f3f7fb; font: 12px "Segoe UI", Arial, sans-serif; }
+#settings-content { width: 282px; height: 344px; padding: 9px 9px 7px; overflow-x: hidden; overflow-y: scroll; }
+.page-heading { position: relative; min-height: 27px; margin-bottom: 7px; }
+.page-heading h1 { margin: 0; color: #183e69; font-size: 20px; font-weight: 600; line-height: 27px; }
+.page-heading button { position: absolute; top: 0; right: 0; }
+#about-page { display: none; height: 376px; padding: 12px; overflow: auto; }
+.show-about #settings-content, .show-about #status { display: none; }
+.show-about #about-page { display: block; }
+#about-page h2 { margin: 16px 0 2px; color: #183e69; font-size: 16px; }
+#about-page p { margin: 8px 0; line-height: 17px; }
+#about-page #gadgetVersion { margin-top: 0; color: #50677c; }
+#about-page dl { margin: 14px 0 0; padding-top: 3px; border-top: 1px solid #d8e3ec; }
+#about-page dt { margin-top: 10px; font-weight: 600; }
+#about-page dd { margin: 2px 0 0; }
+#about-page a { color: #235b86; }
+.hint { color: #63778b; font-size: 11px; line-height: 15px; }
+label { display: block; margin: 7px 0 3px; font-weight: 600; }
+input, select, button { box-sizing: border-box; font: 12px "Segoe UI", Arial, sans-serif; }
+input, select { width: 100%; border: 1px solid #bbcbdc; border-radius: 5px; background: #fff; color: #26344a; }
+input { height: 27px; padding: 4px 6px; }
+select { height: 62px; padding: 3px; }
+select option { padding: 2px 3px; }
+button { height: 27px; padding: 2px 9px; border: 1px solid #93b3d1; border-radius: 5px; background: #e6f1fb; color: #174d7f; cursor: pointer; white-space: nowrap; }
+button:hover { background: #d3e9fb; }
+.actions { margin-top: 5px; text-align: right; }
+.actions button { margin-left: 5px; }
+.row { width: 100%; }
+.row input { width: 69%; vertical-align: top; }
+.row button { width: 28%; margin-left: 2%; vertical-align: top; }
+.divider { height: 1px; margin: 8px 0 5px; background: #d8e3ec; }
+.settings-row { overflow: hidden; }
+.settings-row > div { float: left; width: 47%; }
+.settings-row > div + div { margin-left: 4%; }
+.settings-row select { height: 27px; }
+#sizeWidth, #sizeHeight { width: 100%; }
+#sizeHint { margin-top: 4px; }
+#animateLabel { margin: 10px 0 6px; font-weight: 400; }
+#animateWeather { width: auto; height: auto; margin: 0 5px 0 0; vertical-align: middle; }
+#status { width: 282px; height: 29px; padding: 5px 9px; overflow: hidden; border-top: 1px solid #d8e3ec; color: #285c87; background: #eaf2f9; line-height: 15px; }
+#editBackdrop { display: none; position: absolute; top: 0; left: 0; z-index: 10; width: 300px; height: 400px; background: #102239; filter: alpha(opacity=72); }
+#editPanel { display: none; position: absolute; top: 40px; left: 7px; z-index: 11; width: 264px; padding: 10px; border: 1px solid #9fb8d2; background: #f7fbff; color: #26344a; }
+#editPanel h2 { margin: 0 0 9px; color: #183e69; font-size: 17px; font-weight: 600; }
+#editPanel label { margin: 0 0 5px; }
+#editName, #editCoords { display: block; width: 248px; padding: 6px 7px; border: 1px solid #93b3d1; background: #fff; color: #26344a; resize: none; overflow: auto; }
+#editName { height: 75px; margin: 0 0 8px; font: 14px/19px "Segoe UI", Arial, sans-serif; }
+#editCoords { height: 45px; font: 12px/15px "Segoe UI", Arial, sans-serif; }
+#editMessage { min-height: 30px; margin-top: 6px; }
+.edit-actions { margin-top: 9px; text-align: right; }
+.edit-actions button { margin-left: 6px; }

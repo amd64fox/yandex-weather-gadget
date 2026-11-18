@@ -1,0 +1,79 @@
+{
+  "capturedOn": "2026-11-03",
+  "cases": [
+    {
+      "name": "kharkovka",
+      "source": "https://yandex.by/pogoda/ru?lat=54.44190663514991&lon=30.41421211633299",
+      "fact": {
+        "temperature": 3,
+        "temperatureInCelsius": 3,
+        "feelsLike": 1,
+        "feelsLikeInCelsius": 1,
+        "waterTemperature": 2,
+        "icon": "ovc_-ra",
+        "windSpeed": 1,
+        "windSpeedInMetersPerSecond": 1,
+        "windGust": 5,
+        "pressure": 753,
+        "condition": "LIGHT_RAIN",
+        "phenomCondition": null,
+        "windDirection": "NORTH",
+        "humidity": 93,
+        "roadCondition": "DRY",
+        "visibility": 500,
+        "wavePeriod": null,
+        "waveHeight": null,
+        "waveDirection": null,
+        "uvIndex": 0,
+        "cloudiness": "OVERCAST",
+        "precStrength": "WEAK",
+        "precType": "RAIN",
+        "daytime": "NIGHT"
+      },
+      "html": "<div class=\"style_weatherIcon__OE4YL FactWithoutCharacter_condition__icon__1cRCZ\" style=\"--icon:12\" role=\"presentation\"></div>\n<span class=\"FactWithoutCharacter_warning__first_text__OjZdw\" data-has-dot=\"false\" aria-hidden=\"true\">Слабый дождь</span>\n<div class=\"FactWithoutCharacter_warning__second__sWHAq\" aria-hidden=\"true\"> закончится около 6⁠:⁠00</div>",
+      "expected": {
+        "condition": "Слабый дождь",
+        "conditionCode": "LIGHT_RAIN",
+        "iconIndex": 12,
+        "outlook": "закончится около 6:00"
+      }
+    },
+    {
+      "name": "peski-petersburg",
+      "source": "https://yandex.by/pogoda/ru?lat=59.932846&lon=30.374025",
+      "fact": {
+        "temperature": 5,
+        "temperatureInCelsius": 5,
+        "feelsLike": 1,
+        "feelsLikeInCelsius": 1,
+        "waterTemperature": 4,
+        "icon": "ovc",
+        "windSpeed": 3.7,
+        "windSpeedInMetersPerSecond": 3.7,
+        "windGust": 6.5,
+        "pressure": 767,
+        "condition": "OVERCAST",
+        "phenomCondition": null,
+        "windDirection": "SOUTH_WEST",
+        "humidity": 87,
+        "roadCondition": "WET",
+        "visibility": 5750,
+        "wavePeriod": 4,
+        "waveHeight": 0.1,
+        "waveDirection": "CALM",
+        "uvIndex": 0,
+        "cloudiness": "OVERCAST",
+        "precStrength": "ZERO",
+        "precType": "NO_TYPE",
+        "daytime": "NIGHT"
+      },
+      "html": "<div class=\"style_weatherIcon__OE4YL FactWithoutCharacter_condition__icon__1cRCZ\" style=\"--icon:25\" role=\"presentation\"></div>\n<span class=\"FactWithoutCharacter_warning__first_text__OjZdw\" data-has-dot=\"true\" aria-hidden=\"true\">Пасмурно</span>\n<div class=\"FactWithoutCharacter_warning__second__sWHAq\" aria-hidden=\"true\"> Слабый дождь с 6⁠:⁠00 до 8⁠:⁠00</div>",
+      "expected": {
+        "condition": "Пасмурно",
+        "conditionCode": "OVERCAST",
+        "iconIndex": 25,
+        "outlook": "Слабый дождь с 6:00 до 8:00"
+      }
+    }
+  ]
+}

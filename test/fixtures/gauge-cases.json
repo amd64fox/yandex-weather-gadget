@@ -1,0 +1,738 @@
+{
+  "capturedOn": "2026-09-28",
+  "forecastHtml": "<li class=\"AppHourlyItem_container__aqC1z\"><div aria-hidden=\"true\" class=\"AppHourlyItem_content__MoqYX\"><time class=\"AppHourlyItem_time__515ZC\" dateTime=\"2026-09-28T17:00:00.000Z\">20:00</time><div class=\"AppHourlyItem_center__AJ7yk\"><div class=\"style_weatherIcon__OE4YL AppHourlyItem_icon__7R5lC\" style=\"--icon:27\" role=\"presentation\"></div></div><p class=\"AppHourlyItem_main__HNbqX\">+10°</p></div><p class=\"A11Y_visuallyHidden__y0sw0 visuallyHidden\">20:00: +10°, ясно, Ощущается как +9°.</p></li>\n<li class=\"AppHourlyItem_container__aqC1z\"><div aria-hidden=\"true\" class=\"AppHourlyItem_content__MoqYX\"><time class=\"AppHourlyItem_time__515ZC\" dateTime=\"2026-09-28T18:00:00.000Z\">21:00</time><div class=\"AppHourlyItem_center__AJ7yk\"><div class=\"style_weatherIcon__OE4YL AppHourlyItem_icon__7R5lC\" style=\"--icon:27\" role=\"presentation\"></div></div><p class=\"AppHourlyItem_main__HNbqX\">+9°</p></div><p class=\"A11Y_visuallyHidden__y0sw0 visuallyHidden\">21:00: +9°, ясно, Ощущается как +8°.</p></li>\n<div class=\"AppShortForecastDay_container__r4hyT\"><a rel=\"nofollow\" class=\"AppLink_link___0246 AppShortForecastDay_head__5ya1y\" data-internal=\"true\" href=\"/pogoda/ru/details/today?via=main&amp;lat=59.932846&amp;lon=30.374025\"><span class=\"AppShortForecastDay_title__2NpIg\">пн</span><span class=\"AppShortForecastDay_subtitle__hv_2V\">Сегодня</span><div class=\"style_weatherIcon__OE4YL AppShortForecastDay_icon__rlqHK\" style=\"--icon:26\" role=\"presentation\"></div></a><span class=\"AppShortForecastDay_temperature__DV3oM\">+16°</span><div class=\"AppShortForecastDay_content__e_oar\"></div><span class=\"AppShortForecastDay_temperature__DV3oM\">+6°</span></div>",
+  "cases": [
+    {
+      "name": "ponta-delgada",
+      "source": "https://yandex.by/pogoda/ru?lat=37.7412&lon=-25.6756",
+      "fact": {
+        "temperature": 22,
+        "temperatureInCelsius": 22,
+        "feelsLike": 19,
+        "feelsLikeInCelsius": 19,
+        "waterTemperature": 23,
+        "icon": "bkn_d",
+        "windSpeed": 7.2,
+        "windSpeedInMetersPerSecond": 7.2,
+        "windGust": 16.5,
+        "pressure": 745,
+        "condition": "CLOUDY",
+        "phenomCondition": null,
+        "windDirection": "NORTH",
+        "humidity": 69,
+        "roadCondition": "WET",
+        "visibility": 10000,
+        "wavePeriod": 8,
+        "waveHeight": 2.8,
+        "waveDirection": "WEST",
+        "uvIndex": 1,
+        "cloudiness": "SIGNIFICANT",
+        "precStrength": "ZERO",
+        "precType": "NO_TYPE",
+        "daytime": "DAY"
+      },
+      "cards": [
+        "<li aria-label=\"Магнитные бури в Понта-Делгаде: спокойное\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppMagneticStormsRange_range__cWiIu AppMagneticStormsRange_range_small__nHqIi\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--line-length:6px\" class=\"AppMagneticStormsRange_range__icon__WTwws\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"AppMagneticStormsRange_range__text__KfXoa\"><span class=\"AppMagneticStormsRange_range__number__yCBM1\">1</span><span class=\"AppMagneticStormsRange_range__unit__OYFxx\">Kp</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Магнитные бури в Понта-Делгаде\" data-internal=\"true\" href=\"/pogoda/ru/magnetic-storms?via=main&amp;lat=37.7412&amp;lon=-25.6756\">Магнитное поле<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">спокойное</p></div></li>",
+        "<li aria-label=\"Давление в Понта-Делгаде: пониженное\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppRangeWithSpace_chart__jVE1S\"><svg class=\"AppRangeWithSpace_chart__svg__x0Z4Y\" viewBox=\"-1 0 101 83\" stroke=\"transparent\" stroke-width=\"8\" fill=\"none\"><path id=\"p1\" d=\"M11.45 78.5a46 46 0 1 1 76.1 0\" stroke-linecap=\"round\"></path><use href=\"#p1\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"55.8 16\"></use><use href=\"#p1\" stroke=\"var(--parameter-low)\" stroke-dasharray=\"55.8 210\" stroke-dashoffset=\"0\"></use><use href=\"#p1\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"159.89473684210526\"></use><use href=\"#p1\" stroke=\"var(--parameter-low)\" stroke-width=\"14\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"159.89473684210526\"></use></svg><p class=\"AppRangeWithSpace_chart__description__a9Wnh AppRangeWithSpace_chart__description_small__nq8nx\">745</p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Давление в Понта-Делгаде\" data-internal=\"true\" href=\"/pogoda/ru/pressure?via=main&amp;lat=37.7412&amp;lon=-25.6756\">Давление<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">пониженное</p></div></li>",
+        "<li aria-label=\"УФ-индекс в Понта-Делгаде: низкий\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"UvIndexRange_range__ShHeC UvIndexRange_range_small__5OwM0\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--gauge-length:17px\" class=\"UvIndexRange_range__icon__gJzD_\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--parameter-none)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--parameter-none)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"UvIndexRange_range__text__kNvup\"><span class=\"UvIndexRange_range__number__KkOdl\">1</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"УФ-индекс в Понта-Делгаде\" data-internal=\"true\" href=\"/pogoda/ru/uv-index?via=main&amp;lat=37.7412&amp;lon=-25.6756\">УФ-индекс<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">низкий</p></div></li>"
+      ],
+      "expected": {
+        "pressure": 745,
+        "pressureDescription": "пониженное",
+        "pressureGauge": {
+          "tone": "low",
+          "length": null,
+          "segment": 0,
+          "markerOffset": 159.89473684210526
+        },
+        "uvIndex": 1,
+        "uvDescription": "низкий",
+        "uvGauge": {
+          "tone": "none",
+          "length": 17,
+          "segment": null,
+          "markerOffset": null
+        },
+        "magneticIndex": 1,
+        "magneticDescription": "спокойное",
+        "magneticGauge": {
+          "tone": "neutral",
+          "length": 6,
+          "segment": null,
+          "markerOffset": null
+        }
+      }
+    },
+    {
+      "name": "spb",
+      "source": "https://yandex.by/pogoda/ru?lat=59.932846&lon=30.374025",
+      "fact": {
+        "temperature": 10,
+        "temperatureInCelsius": 10,
+        "feelsLike": 9,
+        "feelsLikeInCelsius": 9,
+        "waterTemperature": 9,
+        "icon": "skc_n",
+        "windSpeed": 0.1,
+        "windSpeedInMetersPerSecond": 0.1,
+        "windGust": 3.7,
+        "pressure": 771,
+        "condition": "CLEAR",
+        "phenomCondition": null,
+        "windDirection": "CALM",
+        "humidity": 80,
+        "roadCondition": "DRY",
+        "visibility": 10000,
+        "wavePeriod": null,
+        "waveHeight": null,
+        "waveDirection": null,
+        "uvIndex": 0,
+        "cloudiness": "CLEAR",
+        "precStrength": "ZERO",
+        "precType": "NO_TYPE",
+        "daytime": "NIGHT"
+      },
+      "cards": [
+        "<li aria-label=\"Магнитные бури в Санкт-Петербурге: спокойное\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppMagneticStormsRange_range__cWiIu AppMagneticStormsRange_range_small__nHqIi\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--line-length:6px\" class=\"AppMagneticStormsRange_range__icon__WTwws\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"AppMagneticStormsRange_range__text__KfXoa\"><span class=\"AppMagneticStormsRange_range__number__yCBM1\">1</span><span class=\"AppMagneticStormsRange_range__unit__OYFxx\">Kp</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Магнитные бури в Санкт-Петербурге\" data-internal=\"true\" href=\"/pogoda/ru/magnetic-storms?via=main&amp;lat=59.932846&amp;lon=30.374025\">Магнитное поле<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">спокойное</p></div></li>",
+        "<li aria-label=\"Давление в Санкт-Петербурге: повышенное\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppRangeWithSpace_chart__jVE1S\"><svg class=\"AppRangeWithSpace_chart__svg__x0Z4Y\" viewBox=\"-1 0 101 83\" stroke=\"transparent\" stroke-width=\"8\" fill=\"none\"><path id=\"p1\" d=\"M11.45 78.5a46 46 0 1 1 76.1 0\" stroke-linecap=\"round\"></path><use href=\"#p1\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"55.8 16\"></use><use href=\"#p1\" stroke=\"var(--parameter-low)\" stroke-dasharray=\"55.8 210\" stroke-dashoffset=\"-143.6\"></use><use href=\"#p1\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"60.21052631578947\"></use><use href=\"#p1\" stroke=\"var(--parameter-low)\" stroke-width=\"14\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"60.21052631578947\"></use></svg><p class=\"AppRangeWithSpace_chart__description__a9Wnh AppRangeWithSpace_chart__description_small__nq8nx\">771</p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Давление в Санкт-Петербурге\" data-internal=\"true\" href=\"/pogoda/ru/pressure?via=main&amp;lat=59.932846&amp;lon=30.374025\">Давление<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">повышенное</p></div></li>",
+        "<li aria-label=\"УФ-индекс в Санкт-Петербурге: низкий\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"UvIndexRange_range__ShHeC UvIndexRange_range_small__5OwM0\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--gauge-length:0px\" class=\"UvIndexRange_range__icon__gJzD_\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--parameter-none)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--parameter-none)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"UvIndexRange_range__text__kNvup\"><span class=\"UvIndexRange_range__number__KkOdl\">0</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"УФ-индекс в Санкт-Петербурге\" data-internal=\"true\" href=\"/pogoda/ru/uv-index?via=main&amp;lat=59.932846&amp;lon=30.374025\">УФ-индекс<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">низкий</p></div></li>"
+      ],
+      "expected": {
+        "pressure": 771,
+        "pressureDescription": "повышенное",
+        "pressureGauge": {
+          "tone": "low",
+          "length": null,
+          "segment": 2,
+          "markerOffset": 60.21052631578947
+        },
+        "uvIndex": 0,
+        "uvDescription": "низкий",
+        "uvGauge": {
+          "tone": "none",
+          "length": 0,
+          "segment": null,
+          "markerOffset": null
+        },
+        "magneticIndex": 1,
+        "magneticDescription": "спокойное",
+        "magneticGauge": {
+          "tone": "neutral",
+          "length": 6,
+          "segment": null,
+          "markerOffset": null
+        }
+      }
+    },
+    {
+      "name": "orsha",
+      "source": "https://yandex.by/pogoda/ru?lat=54.44190663514991&lon=30.41421211633299",
+      "fact": {
+        "temperature": 12,
+        "temperatureInCelsius": 12,
+        "feelsLike": 11,
+        "feelsLikeInCelsius": 11,
+        "waterTemperature": 11,
+        "icon": "skc_n",
+        "windSpeed": 0.6,
+        "windSpeedInMetersPerSecond": 0.6,
+        "windGust": 4,
+        "pressure": 754,
+        "condition": "CLEAR",
+        "phenomCondition": null,
+        "windDirection": "NORTH_EAST",
+        "humidity": 84,
+        "roadCondition": "DRY",
+        "visibility": 4600,
+        "wavePeriod": null,
+        "waveHeight": null,
+        "waveDirection": null,
+        "uvIndex": 0,
+        "cloudiness": "CLEAR",
+        "precStrength": "ZERO",
+        "precType": "NO_TYPE",
+        "daytime": "NIGHT"
+      },
+      "cards": [
+        "<li aria-label=\"Магнитные бури в Харьковке: спокойное\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppMagneticStormsRange_range__cWiIu AppMagneticStormsRange_range_small__nHqIi\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--line-length:6px\" class=\"AppMagneticStormsRange_range__icon__WTwws\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"AppMagneticStormsRange_range__text__KfXoa\"><span class=\"AppMagneticStormsRange_range__number__yCBM1\">1</span><span class=\"AppMagneticStormsRange_range__unit__OYFxx\">Kp</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Магнитные бури в Харьковке\" data-internal=\"true\" href=\"/pogoda/ru/magnetic-storms?via=main&amp;lat=54.44190663514991&amp;lon=30.41421211633299\">Магнитное поле<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">спокойное</p></div></li>",
+        "<li aria-label=\"Давление в Харьковке: повышенное\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppRangeWithSpace_chart__jVE1S\"><svg class=\"AppRangeWithSpace_chart__svg__x0Z4Y\" viewBox=\"-1 0 101 83\" stroke=\"transparent\" stroke-width=\"8\" fill=\"none\"><path id=\"p1\" d=\"M11.45 78.5a46 46 0 1 1 76.1 0\" stroke-linecap=\"round\"></path><use href=\"#p1\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"55.8 16\"></use><use href=\"#p1\" stroke=\"var(--parameter-low)\" stroke-dasharray=\"55.8 210\" stroke-dashoffset=\"-143.6\"></use><use href=\"#p1\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"63.10526315789474\"></use><use href=\"#p1\" stroke=\"var(--parameter-low)\" stroke-width=\"14\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"63.10526315789474\"></use></svg><p class=\"AppRangeWithSpace_chart__description__a9Wnh AppRangeWithSpace_chart__description_small__nq8nx\">754</p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Давление в Харьковке\" data-internal=\"true\" href=\"/pogoda/ru/pressure?via=main&amp;lat=54.44190663514991&amp;lon=30.41421211633299\">Давление<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">повышенное</p></div></li>",
+        "<li aria-label=\"УФ-индекс в Харьковке: низкий\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"UvIndexRange_range__ShHeC UvIndexRange_range_small__5OwM0\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--gauge-length:0px\" class=\"UvIndexRange_range__icon__gJzD_\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--parameter-none)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--parameter-none)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"UvIndexRange_range__text__kNvup\"><span class=\"UvIndexRange_range__number__KkOdl\">0</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"УФ-индекс в Харьковке\" data-internal=\"true\" href=\"/pogoda/ru/uv-index?via=main&amp;lat=54.44190663514991&amp;lon=30.41421211633299\">УФ-индекс<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">низкий</p></div></li>"
+      ],
+      "expected": {
+        "pressure": 754,
+        "pressureDescription": "повышенное",
+        "pressureGauge": {
+          "tone": "low",
+          "length": null,
+          "segment": 2,
+          "markerOffset": 63.10526315789474
+        },
+        "uvIndex": 0,
+        "uvDescription": "низкий",
+        "uvGauge": {
+          "tone": "none",
+          "length": 0,
+          "segment": null,
+          "markerOffset": null
+        },
+        "magneticIndex": 1,
+        "magneticDescription": "спокойное",
+        "magneticGauge": {
+          "tone": "neutral",
+          "length": 6,
+          "segment": null,
+          "markerOffset": null
+        }
+      }
+    },
+    {
+      "name": "reykjavik",
+      "source": "https://yandex.by/pogoda/ru?lat=64.1466&lon=-21.9426",
+      "fact": {
+        "temperature": 10,
+        "temperatureInCelsius": 10,
+        "feelsLike": 6,
+        "feelsLikeInCelsius": 6,
+        "waterTemperature": 10,
+        "icon": "bkn_-ra_d",
+        "windSpeed": 4.1,
+        "windSpeedInMetersPerSecond": 4.1,
+        "windGust": 10.1,
+        "pressure": 750,
+        "condition": "LIGHT_RAIN",
+        "phenomCondition": null,
+        "windDirection": "EAST",
+        "humidity": 76,
+        "roadCondition": "WET",
+        "visibility": 500,
+        "wavePeriod": null,
+        "waveHeight": null,
+        "waveDirection": null,
+        "uvIndex": 0,
+        "cloudiness": "PARTLY",
+        "precStrength": "WEAK",
+        "precType": "RAIN",
+        "daytime": "DAY"
+      },
+      "cards": [
+        "<li aria-label=\"Магнитные бури в Рейкьявике: спокойное\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppMagneticStormsRange_range__cWiIu AppMagneticStormsRange_range_small__nHqIi\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--line-length:6px\" class=\"AppMagneticStormsRange_range__icon__WTwws\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"AppMagneticStormsRange_range__text__KfXoa\"><span class=\"AppMagneticStormsRange_range__number__yCBM1\">1</span><span class=\"AppMagneticStormsRange_range__unit__OYFxx\">Kp</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Магнитные бури в Рейкьявике\" data-internal=\"true\" href=\"/pogoda/ru/magnetic-storms?via=main&amp;lat=64.1466&amp;lon=-21.9426\">Магнитное поле<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">спокойное</p></div></li>",
+        "<li aria-label=\"Давление в Рейкьявике: в норме\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppRangeWithSpace_chart__jVE1S\"><svg class=\"AppRangeWithSpace_chart__svg__x0Z4Y\" viewBox=\"-1 0 101 83\" stroke=\"transparent\" stroke-width=\"8\" fill=\"none\"><path id=\"p1\" d=\"M11.45 78.5a46 46 0 1 1 76.1 0\" stroke-linecap=\"round\"></path><use href=\"#p1\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"55.8 16\"></use><use href=\"#p1\" stroke=\"var(--parameter-none)\" stroke-dasharray=\"55.8 110\" stroke-dashoffset=\"-71.8\"></use><use href=\"#p1\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"135.2\"></use><use href=\"#p1\" stroke=\"var(--parameter-none)\" stroke-width=\"14\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"135.2\"></use></svg><p class=\"AppRangeWithSpace_chart__description__a9Wnh AppRangeWithSpace_chart__description_small__nq8nx\">750</p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Давление в Рейкьявике\" data-internal=\"true\" href=\"/pogoda/ru/pressure?via=main&amp;lat=64.1466&amp;lon=-21.9426\">Давление<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">в норме</p></div></li>",
+        "<li aria-label=\"УФ-индекс в Рейкьявике: низкий\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"UvIndexRange_range__ShHeC UvIndexRange_range_small__5OwM0\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--gauge-length:0px\" class=\"UvIndexRange_range__icon__gJzD_\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--parameter-none)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--parameter-none)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"UvIndexRange_range__text__kNvup\"><span class=\"UvIndexRange_range__number__KkOdl\">0</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"УФ-индекс в Рейкьявике\" data-internal=\"true\" href=\"/pogoda/ru/uv-index?via=main&amp;lat=64.1466&amp;lon=-21.9426\">УФ-индекс<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">низкий</p></div></li>"
+      ],
+      "expected": {
+        "pressure": 750,
+        "pressureDescription": "в норме",
+        "pressureGauge": {
+          "tone": "none",
+          "length": null,
+          "segment": 1,
+          "markerOffset": 135.2
+        },
+        "uvIndex": 0,
+        "uvDescription": "низкий",
+        "uvGauge": {
+          "tone": "none",
+          "length": 0,
+          "segment": null,
+          "markerOffset": null
+        },
+        "magneticIndex": 1,
+        "magneticDescription": "спокойное",
+        "magneticGauge": {
+          "tone": "neutral",
+          "length": 6,
+          "segment": null,
+          "markerOffset": null
+        }
+      }
+    },
+    {
+      "name": "tokyo",
+      "source": "https://yandex.by/pogoda/ru?lat=35.6762&lon=139.6503",
+      "fact": {
+        "temperature": 22,
+        "temperatureInCelsius": 22,
+        "feelsLike": 25,
+        "feelsLikeInCelsius": 25,
+        "waterTemperature": null,
+        "icon": "bkn_-ra_n",
+        "windSpeed": 1,
+        "windSpeedInMetersPerSecond": 1,
+        "windGust": 10.5,
+        "pressure": 750,
+        "condition": "LIGHT_RAIN",
+        "phenomCondition": null,
+        "windDirection": "NORTH",
+        "humidity": 92,
+        "roadCondition": "WET",
+        "visibility": 500,
+        "wavePeriod": 6,
+        "waveHeight": 0.4,
+        "waveDirection": "SOUTH",
+        "uvIndex": 0,
+        "cloudiness": "SIGNIFICANT",
+        "precStrength": "WEAK",
+        "precType": "RAIN",
+        "daytime": "NIGHT"
+      },
+      "cards": [
+        "<li aria-label=\"Магнитные бури в Токио: спокойное\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppMagneticStormsRange_range__cWiIu AppMagneticStormsRange_range_small__nHqIi\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--line-length:6px\" class=\"AppMagneticStormsRange_range__icon__WTwws\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"AppMagneticStormsRange_range__text__KfXoa\"><span class=\"AppMagneticStormsRange_range__number__yCBM1\">1</span><span class=\"AppMagneticStormsRange_range__unit__OYFxx\">Kp</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Магнитные бури в Токио\" data-internal=\"true\" href=\"/pogoda/ru/magnetic-storms?via=main&amp;lat=35.6762&amp;lon=139.6503\">Магнитное поле<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">спокойное</p></div></li>",
+        "<li aria-label=\"Давление в Токио: в норме\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppRangeWithSpace_chart__jVE1S\"><svg class=\"AppRangeWithSpace_chart__svg__x0Z4Y\" viewBox=\"-1 0 101 83\" stroke=\"transparent\" stroke-width=\"8\" fill=\"none\"><path id=\"p1\" d=\"M11.45 78.5a46 46 0 1 1 76.1 0\" stroke-linecap=\"round\"></path><use href=\"#p1\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"55.8 16\"></use><use href=\"#p1\" stroke=\"var(--parameter-none)\" stroke-dasharray=\"55.8 110\" stroke-dashoffset=\"-71.8\"></use><use href=\"#p1\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"126.8\"></use><use href=\"#p1\" stroke=\"var(--parameter-none)\" stroke-width=\"14\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"126.8\"></use></svg><p class=\"AppRangeWithSpace_chart__description__a9Wnh AppRangeWithSpace_chart__description_small__nq8nx\">750</p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Давление в Токио\" data-internal=\"true\" href=\"/pogoda/ru/pressure?via=main&amp;lat=35.6762&amp;lon=139.6503\">Давление<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">в норме</p></div></li>",
+        "<li aria-label=\"УФ-индекс в Токио: низкий\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"UvIndexRange_range__ShHeC UvIndexRange_range_small__5OwM0\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--gauge-length:0px\" class=\"UvIndexRange_range__icon__gJzD_\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--parameter-none)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--parameter-none)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"UvIndexRange_range__text__kNvup\"><span class=\"UvIndexRange_range__number__KkOdl\">0</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"УФ-индекс в Токио\" data-internal=\"true\" href=\"/pogoda/ru/uv-index?via=main&amp;lat=35.6762&amp;lon=139.6503\">УФ-индекс<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">низкий</p></div></li>"
+      ],
+      "expected": {
+        "pressure": 750,
+        "pressureDescription": "в норме",
+        "pressureGauge": {
+          "tone": "none",
+          "length": null,
+          "segment": 1,
+          "markerOffset": 126.8
+        },
+        "uvIndex": 0,
+        "uvDescription": "низкий",
+        "uvGauge": {
+          "tone": "none",
+          "length": 0,
+          "segment": null,
+          "markerOffset": null
+        },
+        "magneticIndex": 1,
+        "magneticDescription": "спокойное",
+        "magneticGauge": {
+          "tone": "neutral",
+          "length": 6,
+          "segment": null,
+          "markerOffset": null
+        }
+      }
+    },
+    {
+      "name": "tallinn",
+      "source": "https://yandex.by/pogoda/ru?lat=59.437&lon=24.7536",
+      "fact": {
+        "temperature": 11,
+        "temperatureInCelsius": 11,
+        "feelsLike": 10,
+        "feelsLikeInCelsius": 10,
+        "waterTemperature": 15,
+        "icon": "skc_n",
+        "windSpeed": 1,
+        "windSpeedInMetersPerSecond": 1,
+        "windGust": 9.1,
+        "pressure": 768,
+        "condition": "CLEAR",
+        "phenomCondition": null,
+        "windDirection": "SOUTH_EAST",
+        "humidity": 87,
+        "roadCondition": "DRY",
+        "visibility": 10000,
+        "wavePeriod": null,
+        "waveHeight": null,
+        "waveDirection": null,
+        "uvIndex": 0,
+        "cloudiness": "CLEAR",
+        "precStrength": "ZERO",
+        "precType": "NO_TYPE",
+        "daytime": "NIGHT"
+      },
+      "cards": [
+        "<li aria-label=\"Магнитные бури в Таллине: спокойное\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppMagneticStormsRange_range__cWiIu AppMagneticStormsRange_range_small__nHqIi\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--line-length:6px\" class=\"AppMagneticStormsRange_range__icon__WTwws\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"AppMagneticStormsRange_range__text__KfXoa\"><span class=\"AppMagneticStormsRange_range__number__yCBM1\">1</span><span class=\"AppMagneticStormsRange_range__unit__OYFxx\">Kp</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Магнитные бури в Таллине\" data-internal=\"true\" href=\"/pogoda/ru/magnetic-storms?via=main&amp;lat=59.437&amp;lon=24.7536\">Магнитное поле<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">спокойное</p></div></li>",
+        "<li aria-label=\"Давление в Таллине: в норме\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppRangeWithSpace_chart__jVE1S\"><svg class=\"AppRangeWithSpace_chart__svg__x0Z4Y\" viewBox=\"-1 0 101 83\" stroke=\"transparent\" stroke-width=\"8\" fill=\"none\"><path id=\"p1\" d=\"M11.45 78.5a46 46 0 1 1 76.1 0\" stroke-linecap=\"round\"></path><use href=\"#p1\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"55.8 16\"></use><use href=\"#p1\" stroke=\"var(--parameter-none)\" stroke-dasharray=\"55.8 110\" stroke-dashoffset=\"-71.8\"></use><use href=\"#p1\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"82\"></use><use href=\"#p1\" stroke=\"var(--parameter-none)\" stroke-width=\"14\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"82\"></use></svg><p class=\"AppRangeWithSpace_chart__description__a9Wnh AppRangeWithSpace_chart__description_small__nq8nx\">768</p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Давление в Таллине\" data-internal=\"true\" href=\"/pogoda/ru/pressure?via=main&amp;lat=59.437&amp;lon=24.7536\">Давление<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">в норме</p></div></li>",
+        "<li aria-label=\"УФ-индекс в Таллине: низкий\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"UvIndexRange_range__ShHeC UvIndexRange_range_small__5OwM0\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--gauge-length:0px\" class=\"UvIndexRange_range__icon__gJzD_\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--parameter-none)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--parameter-none)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"UvIndexRange_range__text__kNvup\"><span class=\"UvIndexRange_range__number__KkOdl\">0</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"УФ-индекс в Таллине\" data-internal=\"true\" href=\"/pogoda/ru/uv-index?via=main&amp;lat=59.437&amp;lon=24.7536\">УФ-индекс<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">низкий</p></div></li>"
+      ],
+      "expected": {
+        "pressure": 768,
+        "pressureDescription": "в норме",
+        "pressureGauge": {
+          "tone": "none",
+          "length": null,
+          "segment": 1,
+          "markerOffset": 82
+        },
+        "uvIndex": 0,
+        "uvDescription": "низкий",
+        "uvGauge": {
+          "tone": "none",
+          "length": 0,
+          "segment": null,
+          "markerOffset": null
+        },
+        "magneticIndex": 1,
+        "magneticDescription": "спокойное",
+        "magneticGauge": {
+          "tone": "neutral",
+          "length": 6,
+          "segment": null,
+          "markerOffset": null
+        }
+      }
+    },
+    {
+      "name": "la-paz",
+      "source": "https://yandex.by/pogoda/ru?lat=-16.4897&lon=-68.1193",
+      "fact": {
+        "temperature": 18,
+        "temperatureInCelsius": 18,
+        "feelsLike": 19,
+        "feelsLikeInCelsius": 19,
+        "waterTemperature": null,
+        "icon": "bkn_d",
+        "windSpeed": 3.5,
+        "windSpeedInMetersPerSecond": 3.5,
+        "windGust": 15.6,
+        "pressure": 510,
+        "condition": "CLOUDY",
+        "phenomCondition": null,
+        "windDirection": "NORTH_EAST",
+        "humidity": 43,
+        "roadCondition": "WET",
+        "visibility": 7800,
+        "wavePeriod": null,
+        "waveHeight": null,
+        "waveDirection": null,
+        "uvIndex": 11,
+        "cloudiness": "CLOUDY",
+        "precStrength": "ZERO",
+        "precType": "NO_TYPE",
+        "daytime": "DAY"
+      },
+      "cards": [
+        "<li aria-label=\"Магнитные бури в Ла-Пасе: спокойное\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppMagneticStormsRange_range__cWiIu AppMagneticStormsRange_range_small__nHqIi\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--line-length:6px\" class=\"AppMagneticStormsRange_range__icon__WTwws\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"AppMagneticStormsRange_range__text__KfXoa\"><span class=\"AppMagneticStormsRange_range__number__yCBM1\">1</span><span class=\"AppMagneticStormsRange_range__unit__OYFxx\">Kp</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Магнитные бури в Ла-Пасе\" data-internal=\"true\" href=\"/pogoda/ru/magnetic-storms?via=main&amp;lat=-16.4897&amp;lon=-68.1193\">Магнитное поле<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">спокойное</p></div></li>",
+        "<li aria-label=\"Давление в Ла-Пасе: повышенное\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppRangeWithSpace_chart__jVE1S\"><svg class=\"AppRangeWithSpace_chart__svg__x0Z4Y\" viewBox=\"-1 0 101 83\" stroke=\"transparent\" stroke-width=\"8\" fill=\"none\"><path id=\"p1\" d=\"M11.45 78.5a46 46 0 1 1 76.1 0\" stroke-linecap=\"round\"></path><use href=\"#p1\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"55.8 16\"></use><use href=\"#p1\" stroke=\"var(--parameter-low)\" stroke-dasharray=\"55.8 210\" stroke-dashoffset=\"-143.6\"></use><use href=\"#p1\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"11\"></use><use href=\"#p1\" stroke=\"var(--parameter-low)\" stroke-width=\"14\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"11\"></use></svg><p class=\"AppRangeWithSpace_chart__description__a9Wnh AppRangeWithSpace_chart__description_small__nq8nx\">510</p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Давление в Ла-Пасе\" data-internal=\"true\" href=\"/pogoda/ru/pressure?via=main&amp;lat=-16.4897&amp;lon=-68.1193\">Давление<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">повышенное</p></div></li>",
+        "<li aria-label=\"УФ-индекс в Ла-Пасе: экстремальный\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"UvIndexRange_range__ShHeC UvIndexRange_range_small__5OwM0\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--gauge-length:189px\" class=\"UvIndexRange_range__icon__gJzD_\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--parameter-uv-extreme)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--parameter-uv-extreme)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"UvIndexRange_range__text__kNvup\"><span class=\"UvIndexRange_range__number__KkOdl\">11</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"УФ-индекс в Ла-Пасе\" data-internal=\"true\" href=\"/pogoda/ru/uv-index?via=main&amp;lat=-16.4897&amp;lon=-68.1193\">УФ-индекс<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">экстремальный</p></div></li>"
+      ],
+      "expected": {
+        "pressure": 510,
+        "pressureDescription": "повышенное",
+        "pressureGauge": {
+          "tone": "low",
+          "length": null,
+          "segment": 2,
+          "markerOffset": 11
+        },
+        "uvIndex": 11,
+        "uvDescription": "экстремальный",
+        "uvGauge": {
+          "tone": "uv-extreme",
+          "length": 189,
+          "segment": null,
+          "markerOffset": null
+        },
+        "magneticIndex": 1,
+        "magneticDescription": "спокойное",
+        "magneticGauge": {
+          "tone": "neutral",
+          "length": 6,
+          "segment": null,
+          "markerOffset": null
+        }
+      }
+    },
+    {
+      "name": "nuuk",
+      "source": "https://yandex.by/pogoda/ru?lat=64.1835&lon=-51.7216",
+      "fact": {
+        "temperature": 2,
+        "temperatureInCelsius": 2,
+        "feelsLike": -3,
+        "feelsLikeInCelsius": -3,
+        "waterTemperature": 5,
+        "icon": "skc_d",
+        "windSpeed": 4.1,
+        "windSpeedInMetersPerSecond": 4.1,
+        "windGust": 8.1,
+        "pressure": 753,
+        "condition": "PARTLY_CLOUDY",
+        "phenomCondition": null,
+        "windDirection": "NORTH_EAST",
+        "humidity": 69,
+        "roadCondition": "DRY",
+        "visibility": 10000,
+        "wavePeriod": 6,
+        "waveHeight": 0.3,
+        "waveDirection": "WEST",
+        "uvIndex": 1,
+        "cloudiness": "PARTLY",
+        "precStrength": "ZERO",
+        "precType": "NO_TYPE",
+        "daytime": "DAY"
+      },
+      "cards": [
+        "<li aria-label=\"Магнитные бури в Нууке: спокойное\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppMagneticStormsRange_range__cWiIu AppMagneticStormsRange_range_small__nHqIi\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--line-length:6px\" class=\"AppMagneticStormsRange_range__icon__WTwws\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"AppMagneticStormsRange_range__text__KfXoa\"><span class=\"AppMagneticStormsRange_range__number__yCBM1\">1</span><span class=\"AppMagneticStormsRange_range__unit__OYFxx\">Kp</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Магнитные бури в Нууке\" data-internal=\"true\" href=\"/pogoda/ru/magnetic-storms?via=main&amp;lat=64.1835&amp;lon=-51.7216\">Магнитное поле<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">спокойное</p></div></li>",
+        "<li aria-label=\"Давление в Нууке: в норме\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppRangeWithSpace_chart__jVE1S\"><svg class=\"AppRangeWithSpace_chart__svg__x0Z4Y\" viewBox=\"-1 0 101 83\" stroke=\"transparent\" stroke-width=\"8\" fill=\"none\"><path id=\"p1\" d=\"M11.45 78.5a46 46 0 1 1 76.1 0\" stroke-linecap=\"round\"></path><use href=\"#p1\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"55.8 16\"></use><use href=\"#p1\" stroke=\"var(--parameter-none)\" stroke-dasharray=\"55.8 110\" stroke-dashoffset=\"-71.8\"></use><use href=\"#p1\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"126.8\"></use><use href=\"#p1\" stroke=\"var(--parameter-none)\" stroke-width=\"14\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"126.8\"></use></svg><p class=\"AppRangeWithSpace_chart__description__a9Wnh AppRangeWithSpace_chart__description_small__nq8nx\">753</p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Давление в Нууке\" data-internal=\"true\" href=\"/pogoda/ru/pressure?via=main&amp;lat=64.1835&amp;lon=-51.7216\">Давление<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">в норме</p></div></li>",
+        "<li aria-label=\"УФ-индекс в Нууке: низкий\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"UvIndexRange_range__ShHeC UvIndexRange_range_small__5OwM0\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--gauge-length:17px\" class=\"UvIndexRange_range__icon__gJzD_\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--parameter-none)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--parameter-none)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"UvIndexRange_range__text__kNvup\"><span class=\"UvIndexRange_range__number__KkOdl\">1</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"УФ-индекс в Нууке\" data-internal=\"true\" href=\"/pogoda/ru/uv-index?via=main&amp;lat=64.1835&amp;lon=-51.7216\">УФ-индекс<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">низкий</p></div></li>"
+      ],
+      "expected": {
+        "pressure": 753,
+        "pressureDescription": "в норме",
+        "pressureGauge": {
+          "tone": "none",
+          "length": null,
+          "segment": 1,
+          "markerOffset": 126.8
+        },
+        "uvIndex": 1,
+        "uvDescription": "низкий",
+        "uvGauge": {
+          "tone": "none",
+          "length": 17,
+          "segment": null,
+          "markerOffset": null
+        },
+        "magneticIndex": 1,
+        "magneticDescription": "спокойное",
+        "magneticGauge": {
+          "tone": "neutral",
+          "length": 6,
+          "segment": null,
+          "markerOffset": null
+        }
+      }
+    },
+    {
+      "name": "new-york",
+      "source": "https://yandex.by/pogoda/ru?lat=40.7128&lon=-74.006",
+      "fact": {
+        "temperature": 16,
+        "temperatureInCelsius": 16,
+        "feelsLike": 16,
+        "feelsLikeInCelsius": 16,
+        "waterTemperature": 19,
+        "icon": "ovc",
+        "windSpeed": 1.5,
+        "windSpeedInMetersPerSecond": 1.5,
+        "windGust": 16.3,
+        "pressure": 756,
+        "condition": "OVERCAST",
+        "phenomCondition": null,
+        "windDirection": "NORTH",
+        "humidity": 84,
+        "roadCondition": "WET",
+        "visibility": 10000,
+        "wavePeriod": null,
+        "waveHeight": null,
+        "waveDirection": null,
+        "uvIndex": 3,
+        "cloudiness": "OVERCAST",
+        "precStrength": "ZERO",
+        "precType": "NO_TYPE",
+        "daytime": "DAY"
+      },
+      "cards": [
+        "<li aria-label=\"Магнитные бури в Нью-Йорке: спокойное\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppMagneticStormsRange_range__cWiIu AppMagneticStormsRange_range_small__nHqIi\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--line-length:6px\" class=\"AppMagneticStormsRange_range__icon__WTwws\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"AppMagneticStormsRange_range__text__KfXoa\"><span class=\"AppMagneticStormsRange_range__number__yCBM1\">1</span><span class=\"AppMagneticStormsRange_range__unit__OYFxx\">Kp</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Магнитные бури в Нью-Йорке\" data-internal=\"true\" href=\"/pogoda/ru/magnetic-storms?via=main&amp;lat=40.7128&amp;lon=-74.006\">Магнитное поле<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">спокойное</p></div></li>",
+        "<li aria-label=\"Давление в Нью-Йорке: в норме\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppRangeWithSpace_chart__jVE1S\"><svg class=\"AppRangeWithSpace_chart__svg__x0Z4Y\" viewBox=\"-1 0 101 83\" stroke=\"transparent\" stroke-width=\"8\" fill=\"none\"><path id=\"p1\" d=\"M11.45 78.5a46 46 0 1 1 76.1 0\" stroke-linecap=\"round\"></path><use href=\"#p1\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"55.8 16\"></use><use href=\"#p1\" stroke=\"var(--parameter-none)\" stroke-dasharray=\"55.8 110\" stroke-dashoffset=\"-71.8\"></use><use href=\"#p1\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"118.4\"></use><use href=\"#p1\" stroke=\"var(--parameter-none)\" stroke-width=\"14\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"118.4\"></use></svg><p class=\"AppRangeWithSpace_chart__description__a9Wnh AppRangeWithSpace_chart__description_small__nq8nx\">756</p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Давление в Нью-Йорке\" data-internal=\"true\" href=\"/pogoda/ru/pressure?via=main&amp;lat=40.7128&amp;lon=-74.006\">Давление<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">в норме</p></div></li>",
+        "<li aria-label=\"УФ-индекс в Нью-Йорке: умеренный\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"UvIndexRange_range__ShHeC UvIndexRange_range_small__5OwM0\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--gauge-length:51px\" class=\"UvIndexRange_range__icon__gJzD_\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--parameter-low)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--parameter-low)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"UvIndexRange_range__text__kNvup\"><span class=\"UvIndexRange_range__number__KkOdl\">3</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"УФ-индекс в Нью-Йорке\" data-internal=\"true\" href=\"/pogoda/ru/uv-index?via=main&amp;lat=40.7128&amp;lon=-74.006\">УФ-индекс<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">умеренный</p></div></li>"
+      ],
+      "expected": {
+        "pressure": 756,
+        "pressureDescription": "в норме",
+        "pressureGauge": {
+          "tone": "none",
+          "length": null,
+          "segment": 1,
+          "markerOffset": 118.4
+        },
+        "uvIndex": 3,
+        "uvDescription": "умеренный",
+        "uvGauge": {
+          "tone": "low",
+          "length": 51,
+          "segment": null,
+          "markerOffset": null
+        },
+        "magneticIndex": 1,
+        "magneticDescription": "спокойное",
+        "magneticGauge": {
+          "tone": "neutral",
+          "length": 6,
+          "segment": null,
+          "markerOffset": null
+        }
+      }
+    },
+    {
+      "name": "ushuaia",
+      "source": "https://yandex.by/pogoda/ru?lat=-54.8019&lon=-68.303",
+      "fact": {
+        "temperature": 6,
+        "temperatureInCelsius": 6,
+        "feelsLike": 3,
+        "feelsLikeInCelsius": 3,
+        "waterTemperature": null,
+        "icon": "skc_d",
+        "windSpeed": 2.1,
+        "windSpeedInMetersPerSecond": 2.1,
+        "windGust": 4.9,
+        "pressure": 765,
+        "condition": "CLEAR",
+        "phenomCondition": null,
+        "windDirection": "EAST",
+        "humidity": 61,
+        "roadCondition": "DRY",
+        "visibility": 10000,
+        "wavePeriod": null,
+        "waveHeight": null,
+        "waveDirection": null,
+        "uvIndex": 4,
+        "cloudiness": "CLEAR",
+        "precStrength": "ZERO",
+        "precType": "NO_TYPE",
+        "daytime": "DAY"
+      },
+      "cards": [
+        "<li aria-label=\"Магнитные бури в Ушуайе: спокойное\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppMagneticStormsRange_range__cWiIu AppMagneticStormsRange_range_small__nHqIi\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--line-length:6px\" class=\"AppMagneticStormsRange_range__icon__WTwws\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"AppMagneticStormsRange_range__text__KfXoa\"><span class=\"AppMagneticStormsRange_range__number__yCBM1\">1</span><span class=\"AppMagneticStormsRange_range__unit__OYFxx\">Kp</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Магнитные бури в Ушуайе\" data-internal=\"true\" href=\"/pogoda/ru/magnetic-storms?via=main&amp;lat=-54.8019&amp;lon=-68.303\">Магнитное поле<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">спокойное</p></div></li>",
+        "<li aria-label=\"Давление в Ушуайе: в норме\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppRangeWithSpace_chart__jVE1S\"><svg class=\"AppRangeWithSpace_chart__svg__x0Z4Y\" viewBox=\"-1 0 101 83\" stroke=\"transparent\" stroke-width=\"8\" fill=\"none\"><path id=\"p1\" d=\"M11.45 78.5a46 46 0 1 1 76.1 0\" stroke-linecap=\"round\"></path><use href=\"#p1\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"55.8 16\"></use><use href=\"#p1\" stroke=\"var(--parameter-none)\" stroke-dasharray=\"55.8 110\" stroke-dashoffset=\"-71.8\"></use><use href=\"#p1\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"90.4\"></use><use href=\"#p1\" stroke=\"var(--parameter-none)\" stroke-width=\"14\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"90.4\"></use></svg><p class=\"AppRangeWithSpace_chart__description__a9Wnh AppRangeWithSpace_chart__description_small__nq8nx\">765</p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Давление в Ушуайе\" data-internal=\"true\" href=\"/pogoda/ru/pressure?via=main&amp;lat=-54.8019&amp;lon=-68.303\">Давление<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">в норме</p></div></li>",
+        "<li aria-label=\"УФ-индекс в Ушуайе: умеренный\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"UvIndexRange_range__ShHeC UvIndexRange_range_small__5OwM0\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--gauge-length:68px\" class=\"UvIndexRange_range__icon__gJzD_\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--parameter-low)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--parameter-low)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"UvIndexRange_range__text__kNvup\"><span class=\"UvIndexRange_range__number__KkOdl\">4</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"УФ-индекс в Ушуайе\" data-internal=\"true\" href=\"/pogoda/ru/uv-index?via=main&amp;lat=-54.8019&amp;lon=-68.303\">УФ-индекс<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">умеренный</p></div></li>"
+      ],
+      "expected": {
+        "pressure": 765,
+        "pressureDescription": "в норме",
+        "pressureGauge": {
+          "tone": "none",
+          "length": null,
+          "segment": 1,
+          "markerOffset": 90.4
+        },
+        "uvIndex": 4,
+        "uvDescription": "умеренный",
+        "uvGauge": {
+          "tone": "low",
+          "length": 68,
+          "segment": null,
+          "markerOffset": null
+        },
+        "magneticIndex": 1,
+        "magneticDescription": "спокойное",
+        "magneticGauge": {
+          "tone": "neutral",
+          "length": 6,
+          "segment": null,
+          "markerOffset": null
+        }
+      }
+    },
+    {
+      "name": "buenos-aires",
+      "source": "https://yandex.by/pogoda/ru?lat=-34.6037&lon=-58.3816",
+      "fact": {
+        "temperature": 17,
+        "temperatureInCelsius": 17,
+        "feelsLike": 16,
+        "feelsLikeInCelsius": 16,
+        "waterTemperature": 15,
+        "icon": "ovc",
+        "windSpeed": 5.1,
+        "windSpeedInMetersPerSecond": 5.1,
+        "windGust": 14.6,
+        "pressure": 756,
+        "condition": "OVERCAST",
+        "phenomCondition": null,
+        "windDirection": "EAST",
+        "humidity": 85,
+        "roadCondition": "DRY",
+        "visibility": 10000,
+        "wavePeriod": null,
+        "waveHeight": null,
+        "waveDirection": null,
+        "uvIndex": 6,
+        "cloudiness": "OVERCAST",
+        "precStrength": "ZERO",
+        "precType": "NO_TYPE",
+        "daytime": "DAY"
+      },
+      "cards": [
+        "<li aria-label=\"Магнитные бури в Буэнос-Айресе: спокойное\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppMagneticStormsRange_range__cWiIu AppMagneticStormsRange_range_small__nHqIi\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--line-length:6px\" class=\"AppMagneticStormsRange_range__icon__WTwws\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"AppMagneticStormsRange_range__text__KfXoa\"><span class=\"AppMagneticStormsRange_range__number__yCBM1\">1</span><span class=\"AppMagneticStormsRange_range__unit__OYFxx\">Kp</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Магнитные бури в Буэнос-Айресе\" data-internal=\"true\" href=\"/pogoda/ru/magnetic-storms?via=main&amp;lat=-34.6037&amp;lon=-58.3816\">Магнитное поле<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">спокойное</p></div></li>",
+        "<li aria-label=\"Давление в Буэнос-Айресе: в норме\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppRangeWithSpace_chart__jVE1S\"><svg class=\"AppRangeWithSpace_chart__svg__x0Z4Y\" viewBox=\"-1 0 101 83\" stroke=\"transparent\" stroke-width=\"8\" fill=\"none\"><path id=\"p1\" d=\"M11.45 78.5a46 46 0 1 1 76.1 0\" stroke-linecap=\"round\"></path><use href=\"#p1\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"55.8 16\"></use><use href=\"#p1\" stroke=\"var(--parameter-none)\" stroke-dasharray=\"55.8 110\" stroke-dashoffset=\"-71.8\"></use><use href=\"#p1\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"112.8\"></use><use href=\"#p1\" stroke=\"var(--parameter-none)\" stroke-width=\"14\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"112.8\"></use></svg><p class=\"AppRangeWithSpace_chart__description__a9Wnh AppRangeWithSpace_chart__description_small__nq8nx\">756</p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Давление в Буэнос-Айресе\" data-internal=\"true\" href=\"/pogoda/ru/pressure?via=main&amp;lat=-34.6037&amp;lon=-58.3816\">Давление<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">в норме</p></div></li>",
+        "<li aria-label=\"УФ-индекс в Буэнос-Айресе: высокий\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"UvIndexRange_range__ShHeC UvIndexRange_range_small__5OwM0\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--gauge-length:103px\" class=\"UvIndexRange_range__icon__gJzD_\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--parameter-average)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--parameter-average)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"UvIndexRange_range__text__kNvup\"><span class=\"UvIndexRange_range__number__KkOdl\">6</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"УФ-индекс в Буэнос-Айресе\" data-internal=\"true\" href=\"/pogoda/ru/uv-index?via=main&amp;lat=-34.6037&amp;lon=-58.3816\">УФ-индекс<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">высокий</p></div></li>"
+      ],
+      "expected": {
+        "pressure": 756,
+        "pressureDescription": "в норме",
+        "pressureGauge": {
+          "tone": "none",
+          "length": null,
+          "segment": 1,
+          "markerOffset": 112.8
+        },
+        "uvIndex": 6,
+        "uvDescription": "высокий",
+        "uvGauge": {
+          "tone": "average",
+          "length": 103,
+          "segment": null,
+          "markerOffset": null
+        },
+        "magneticIndex": 1,
+        "magneticDescription": "спокойное",
+        "magneticGauge": {
+          "tone": "neutral",
+          "length": 6,
+          "segment": null,
+          "markerOffset": null
+        }
+      }
+    },
+    {
+      "name": "quito",
+      "source": "https://yandex.by/pogoda/ru?lat=-0.1807&lon=-78.4678",
+      "fact": {
+        "temperature": 22,
+        "temperatureInCelsius": 22,
+        "feelsLike": 24,
+        "feelsLikeInCelsius": 24,
+        "waterTemperature": null,
+        "icon": "ovc",
+        "windSpeed": 3.7,
+        "windSpeedInMetersPerSecond": 3.7,
+        "windGust": 6.3,
+        "pressure": 591,
+        "condition": "OVERCAST",
+        "phenomCondition": null,
+        "windDirection": "NORTH",
+        "humidity": 48,
+        "roadCondition": "WET",
+        "visibility": 10000,
+        "wavePeriod": null,
+        "waveHeight": null,
+        "waveDirection": null,
+        "uvIndex": 11,
+        "cloudiness": "OVERCAST",
+        "precStrength": "ZERO",
+        "precType": "NO_TYPE",
+        "daytime": "DAY"
+      },
+      "cards": [
+        "<li aria-label=\"Магнитные бури в Кито: спокойное\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppMagneticStormsRange_range__cWiIu AppMagneticStormsRange_range_small__nHqIi\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--line-length:6px\" class=\"AppMagneticStormsRange_range__icon__WTwws\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--text-secondary)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"AppMagneticStormsRange_range__text__KfXoa\"><span class=\"AppMagneticStormsRange_range__number__yCBM1\">1</span><span class=\"AppMagneticStormsRange_range__unit__OYFxx\">Kp</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Магнитные бури в Кито\" data-internal=\"true\" href=\"/pogoda/ru/magnetic-storms?via=main&amp;lat=-0.1807&amp;lon=-78.4678\">Магнитное поле<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">спокойное</p></div></li>",
+        "<li aria-label=\"Давление в Кито: повышенное\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"AppRangeWithSpace_chart__jVE1S\"><svg class=\"AppRangeWithSpace_chart__svg__x0Z4Y\" viewBox=\"-1 0 101 83\" stroke=\"transparent\" stroke-width=\"8\" fill=\"none\"><path id=\"p1\" d=\"M11.45 78.5a46 46 0 1 1 76.1 0\" stroke-linecap=\"round\"></path><use href=\"#p1\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"55.8 16\"></use><use href=\"#p1\" stroke=\"var(--parameter-low)\" stroke-dasharray=\"55.8 210\" stroke-dashoffset=\"-143.6\"></use><use href=\"#p1\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"11\"></use><use href=\"#p1\" stroke=\"var(--parameter-low)\" stroke-width=\"14\" stroke-dasharray=\"0 210\" stroke-dashoffset=\"11\"></use></svg><p class=\"AppRangeWithSpace_chart__description__a9Wnh AppRangeWithSpace_chart__description_small__nq8nx\">591</p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"Давление в Кито\" data-internal=\"true\" href=\"/pogoda/ru/pressure?via=main&amp;lat=-0.1807&amp;lon=-78.4678\">Давление<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">повышенное</p></div></li>",
+        "<li aria-label=\"УФ-индекс в Кито: экстремальный\" class=\"AppWellBeingCard_content__wVj0P\"><div class=\"AppWellBeingCard_chart___GPy4\" aria-hidden=\"true\"><div class=\"UvIndexRange_range__ShHeC UvIndexRange_range_small__5OwM0\" aria-hidden=\"true\"><svg width=\"100%\" viewBox=\"0 0 96 77\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"--gauge-length:189px\" class=\"UvIndexRange_range__icon__gJzD_\" stroke=\"var(--parameter-neutral)\" stroke-width=\"8\"><path id=\"p\" d=\"M11.45 72.5a44 44 0 1 1 73.1 0\" stroke-linecap=\"round\"></path><use href=\"#p\" stroke=\"var(--parameter-neutral)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--parameter-uv-extreme)\" stroke-dasharray=\"210 210\"></use><use href=\"#p\" stroke=\"var(--surface-elevated-200)\" stroke-width=\"24\" stroke-dasharray=\"0 210\"></use><use href=\"#p\" stroke=\"var(--parameter-uv-extreme)\" stroke-width=\"14\" stroke-dasharray=\"0 210\"></use></svg><p class=\"UvIndexRange_range__text__kNvup\"><span class=\"UvIndexRange_range__number__KkOdl\">11</span></p></div></div><div class=\"AppWellBeingCard_description__r8cGP\"><div class=\"AppWellBeingCard_description__titleWrapper__PqPG5\"><a class=\"AppLink_link___0246 AppWellBeingCard_description__title__jFr31\" title=\"УФ-индекс в Кито\" data-internal=\"true\" href=\"/pogoda/ru/uv-index?via=main&amp;lat=-0.1807&amp;lon=-78.4678\">УФ-индекс<div class=\"utils_clicker___fvnp\"></div></a></div><p class=\"AppWellBeingCard_description__subtitle__ORKH4\">экстремальный</p></div></li>"
+      ],
+      "expected": {
+        "pressure": 591,
+        "pressureDescription": "повышенное",
+        "pressureGauge": {
+          "tone": "low",
+          "length": null,
+          "segment": 2,
+          "markerOffset": 11
+        },
+        "uvIndex": 11,
+        "uvDescription": "экстремальный",
+        "uvGauge": {
+          "tone": "uv-extreme",
+          "length": 189,
+          "segment": null,
+          "markerOffset": null
+        },
+        "magneticIndex": 1,
+        "magneticDescription": "спокойное",
+        "magneticGauge": {
+          "tone": "neutral",
+          "length": 6,
+          "segment": null,
+          "markerOffset": null
+        }
+      }
+    }
+  ]
+}

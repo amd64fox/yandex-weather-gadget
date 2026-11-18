@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=8" />
+  <title>Яндекс Погода</title>
+  <link rel="stylesheet" href="gadget.css" />
+  <script type="text/javascript">
+    function weatherBootError(message) {
+      var status = document.getElementById("status");
+      if (status) {
+        status.innerText = "Ошибка запуска";
+        status.title = String(message);
+        status.style.display = "block";
+      }
+      document.title = "Яндекс Погода: " + message;
+    }
+    window.onerror = function (message, source, line) {
+      weatherBootError(message + " (строка " + line + ")");
+      return true;
+    };
+    function weatherBoot() {
+      try { WeatherGadget.start(); }
+      catch (error) { weatherBootError(error.message || String(error)); }
+    }
+  </script>
+  <script type="text/javascript" src="weather-parser.js"></script>
+  <script type="text/javascript" src="weather-particles.js"></script>
+  <script type="text/javascript" src="weather-http.js"></script>
+  <script type="text/javascript" src="gadget.js"></script>
+</head>
+<body onload="weatherBoot()">
+  <g:background id="background" src="background-night-dashboard.png" style="position:absolute;left:0;top:0;width:516px;height:318px;z-index:-1"></g:background>
+  <div id="card">
+    <div id="topbar">
+      <span id="updated-time" title="Погода ещё не обновлялась">--:--</span>
+      <span id="place" title="Текущее место">Харьковка, Оршанский район</span>
+      <button id="next-place" type="button" title="Следующее место" aria-label="Следующее сохранённое место" hidefocus="true" unselectable="on"><span class="next-chevron">›</span></button>
+      <a id="open-site" title="Открыть Яндекс Погоду" aria-label="Открыть сайт Яндекс Погоды" target="_blank" href="https://yandex.ru/pogoda/ru?lat=54.44190663514991&amp;lon=30.41421211633299"><img src="yandex-weather-logo.ico" alt="Яндекс Погода" /></a>
+      <button id="refresh" type="button" title="Обновить" aria-label="Обновить погоду"></button>
+    </div>
+    <div id="main" class="panel-art">
+      <div id="hero">
+        <div id="weather-icon" class="wx-icon" title="Погода"></div>
+        <div id="current">
+          <div id="temperature">—°</div>
+          <div id="condition">Загрузка погоды</div>
+          <div id="outlook"></div>
+          <div id="feels">Ощущается как —°</div>
+        </div>
+      </div>
+      <div id="periods">
+        <div class="period"><div class="period-name" id="period-name-0">—</div><div class="period-icon wx-icon" id="period-icon-0"></div><div class="period-temp" id="period-temp-0">—°</div></div>
+        <div class="period"><div class="period-name" id="period-name-1">—</div><div class="period-icon wx-icon" id="period-icon-1"></div><div class="period-temp" id="period-temp-1">—°</div></div>
+        <div class="period"><div class="period-name" id="period-name-2">—</div><div class="period-icon wx-icon" id="period-icon-2"></div><div class="period-temp" id="period-temp-2">—°</div></div>
+      </div>
+    </div>
+    <div id="sections">
+      <div id="metrics-heading">
+        <button id="metrics-toggle" class="section-toggle" type="button" aria-expanded="true" aria-controls="metrics"><span class="arrow-icon" aria-hidden="true"></span>Показатели</button>
+      </div>
+      <div id="metrics" class="panel-art">
+        <div class="metric metric-wind"><span class="metric-icon"></span><div class="metric-text"><span class="metric-label">Ветер</span><span class="metric-value" id="wind">—</span></div></div>
+        <div class="metric metric-humidity"><span class="metric-icon"></span><div class="metric-text"><span class="metric-label">Влажность</span><span class="metric-value" id="humidity">—</span></div></div>
+        <div class="metric metric-pressure"><span class="metric-icon"><span id="pressure">—</span></span><div class="metric-text"><span class="metric-label">Давление</span><span class="metric-description" id="pressure-description">—</span></div></div>
+        <div class="metric metric-uv"><span class="metric-icon"><span id="uv-index">—</span></span><div class="metric-text"><span class="metric-label">УФ-индекс</span><span class="metric-description" id="uv-description">—</span></div></div>
+        <div class="metric metric-magnetic"><span class="metric-icon"><span id="magnetic-index">—</span></span><div class="metric-text"><span class="metric-label">Магнитное поле</span><span class="metric-description" id="magnetic-description">—</span></div></div>
+      </div>
+      <div id="hourly-section">
+        <div id="hourly-heading">
+          <button id="hourly-toggle" class="section-toggle" type="button" aria-expanded="true" aria-controls="hourly-body"><span class="arrow-icon" aria-hidden="true"></span>Ближайшие часы</button>
+          <button id="hourly-prev" class="hourly-arrow" type="button" title="Предыдущие часы" aria-label="Предыдущие часы" disabled="disabled"><span class="arrow-icon"></span></button>
+          <button id="hourly-next" class="hourly-arrow" type="button" title="Следующие часы" aria-label="Следующие часы" disabled="disabled"><span class="arrow-icon"></span></button>
+        </div>
+        <div id="hourly-body" class="panel-art"><div id="hourly"></div></div>
+      </div>
+    </div>
+    <div id="status" title="Состояние обновления"></div>
+  </div>
+</body>
+</html>
